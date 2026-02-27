@@ -7,13 +7,14 @@ body {
 
 .navigation-bar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #1B1B1B;
     height: 70px;
     width: 1110px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 70px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -43,6 +44,17 @@ body {
     left: 922px;
 }
 
+.main-intro {
+    display: flex;
+}
+
+.pfp {
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -57,20 +69,83 @@ body {
     font-family: Raleway;
     font-size: 44px;
     font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .intro p {
     color: #9C9C9C;
+    font-size: 14px;
     width: 492px;
     height: 72px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    gap: 10px;
+    line-height: 24px;
+    letter-spacing: 1%;
 }
 
 .intro button {
     background-color: #3F8E00;
     color: #FFFFFF;
-    padding: 21px 66px;
+    padding: 21px 0px 21px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     width: 307.89px;
     height: 63px;
     border-radius: 4px;
     border: 1px solid #62BA1B;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0%;
+    line-height: 100%;
+    gap: 10px;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.intro button img {
+    width: 5.89px;
+    height: 10px;
+    margin-right: 64px;
+}
+
+.worked-with p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    margin-left: 180px;
+    margin-top: 70px;
+    weight: 400;
+}
+
+.partnerships {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.partnerships-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1B1B1B;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+}
+
+.partnerships-container img {
+    padding: 18px 32px;
 }
