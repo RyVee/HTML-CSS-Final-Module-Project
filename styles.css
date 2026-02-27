@@ -46,6 +46,8 @@ body {
 
 .main-intro {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pfp {
@@ -60,8 +62,6 @@ body {
     flex-direction: column;
     width: 538px;
     height: 247px;
-    margin-left: 180px;
-    margin-top: 131px;
 }
 
 .intro h1 {
