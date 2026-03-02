@@ -44,6 +44,11 @@ body {
     left: 922px;
 }
 
+.social-icons img {
+    width: 17px;
+    height: 18px;
+}
+
 .main-intro {
     display: flex;
     justify-content: center;
@@ -87,7 +92,7 @@ body {
 }
 
 .intro button {
-    background-color: #3F8E00;
+    background-color: #07c797;
     color: #FFFFFF;
     padding: 21px 0px 21px 64px;
     display: flex;
@@ -97,7 +102,7 @@ body {
     width: 307.89px;
     height: 63px;
     border-radius: 4px;
-    border: 1px solid #62BA1B;
+    border: 1px solid #19a08e;
     font-family: IBM Plex Mono;
     font-size: 16px;
     font-weight: bold;
@@ -112,6 +117,10 @@ body {
     width: 5.89px;
     height: 10px;
     margin-right: 64px;
+}
+
+.intro a {
+    text-decoration: none;
 }
 
 .worked-with p {
@@ -140,7 +149,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #1B1B1B;
+    border: 1px solid #65cae9;
     border-radius: 5px;
     width: 160px;
     height: 60px;
