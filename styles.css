@@ -149,3 +149,28 @@ body {
 .partnerships-container img {
     padding: 18px 32px;
 }
+
+ /* Phone screen */
+@media screen and (min-width: ) and (max-width: ) {
+
+}
+
+/* Tablet screen */
+@media screen and (min-width: ) and (max-width: ) {
+
+}
+
+/* Laptop screen */
+@media screen and (min-width: ) and (max-width: ) {
+
+}
+
+/* 1080p screen */
+@media screen and (min-width: ) and (max-width: ) {
+
+}
+
+/* 1440p screen */
+@media screen and (min-width: ) and (max-width: ) {
+    
+} 
