@@ -18,6 +18,11 @@ body {
     gap: 70px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    border: 1px solid #65cae9;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-style: none;
 }
 
 .navigation-bar ul {
@@ -156,30 +161,36 @@ body {
 }
 
 .partnerships-container img {
-    padding: 18px 32px;
+    padding: 10px 20px;
+    display: block;
+    object-fit: contain;
+    width: 100%;
 }
 
- /* Phone screen */
+/* {
+
 @media screen and (min-width: ) and (max-width: ) {
 
 }
 
-/* Tablet screen */
+
 @media screen and (min-width: ) and (max-width: ) {
 
 }
 
-/* Laptop screen */
+
 @media screen and (min-width: ) and (max-width: ) {
 
 }
 
-/* 1080p screen */
+
 @media screen and (min-width: ) and (max-width: ) {
 
 }
 
-/* 1440p screen */
+
 @media screen and (min-width: ) and (max-width: ) {
     
 } 
+
+*/
