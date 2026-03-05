@@ -167,14 +167,75 @@ body {
     width: 100%;
 }
 
-/* {
+@media screen and (max-width: 899px) {
+    body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-@media screen and (min-width: ) and (max-width: ) {
+    .navigation-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
 
+    .intro {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro h1 {
+        font-size: 35px;
+    }
+
+    .intro p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 5px;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-intro button img {
+        margin-right: 100px;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .main-intro img {
+        width: 50%;
+        height: 50%;
+        margin-top: 20px;
+    }
+    
+    .worked-with {
+        display: flex;
+        justify-content: start;
+        width: 400px;
+     }
+    .worked-with p {
+        margin: 20px;
+        padding: 20px;
+        justify-content: start;
+        font-size: 20px;
+    }
 }
+/*
 
-
-@media screen and (min-width: ) and (max-width: ) {
+@media screen and (min-width:  ) and (max-width: ) {
 
 }
 
@@ -192,5 +253,3 @@ body {
 @media screen and (min-width: ) and (max-width: ) {
     
 } 
-
-*/
