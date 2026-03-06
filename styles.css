@@ -25,13 +25,16 @@ body {
     border-top-style: none;
 }
 
+.navigation-bar i {
+    display: none;
+}
+
 .navigation-bar ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     list-style: none;
     gap: 70px;
- 
 }
 
 .navigation-bar a {
@@ -45,8 +48,6 @@ body {
     align-items: center;
     width: 107.54px;
     height: 17px;
-    top: 26px;
-    left: 922px;
 }
 
 .social-icons img {
@@ -233,12 +234,14 @@ body {
         font-size: 20px;
     }
 }
-/*
 
-@media screen and (min-width:  ) and (max-width: ) {
 
+@media screen and (min-width: 900px ) and (max-width: 1079) {
+    .menu-toggle {
+        display: none;
+    }
 }
-
+/*
 
 @media screen and (min-width: ) and (max-width: ) {
 
