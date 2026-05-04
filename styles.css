@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+.navigation-bar a:hover {
+    text-decoration: underline;
+}
+
 .social-icons {
     display: flex;
     justify-content: space-between;
@@ -87,7 +91,7 @@ body {
 
 .intro p {
     color: #9C9C9C;
-    font-size: 14px;
+    font-size: 18px;
     width: 492px;
     height: 72px;
     margin-top: 0;
@@ -357,18 +361,3 @@ body {
         flex-wrap: nowrap;
     }
 }
-/*
-
-@media screen and (min-width: ) and (max-width: ) {
-
-}
-
-
-@media screen and (min-width: ) and (max-width: ) {
-
-}
-
-
-@media screen and (min-width: ) and (max-width: ) {
-    
-} 
